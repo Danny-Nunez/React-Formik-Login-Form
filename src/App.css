@@ -1,3 +1,77 @@
+.formgroup {
+  display: flex;
+  justify-content: center;
+}
+.confetti {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  top: -7%;
+  z-index: -2;
+}
+.lottiecontainer {
+  background-color: rgba(255, 255, 255, 0);
+}
+.title {
+  display: inline-block;
+  justify-content: center;
+}
+.inputwrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+#pswError {
+  position: absolute;
+  margin-top: -43px;
+  height: 10px;
+  background-color: rgba(204, 204, 204, 0)
+}
+#emailError {
+  position: absolute;
+  margin-top: -43px;
+  height: 10px;
+  background-color: rgba(204, 204, 204, 0)
+}
+.buttonpad {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.submitbutton {
+  background-color: #c70000;
+  color: #fff;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+.submitbutton:hover {
+  background-color: #00a128;
+}
+
+div {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
 .App {
   text-align: center;
 }
