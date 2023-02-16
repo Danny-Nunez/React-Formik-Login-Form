@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a small demo of a single page React app created with `create-react-app`. The app contains a form that uses the **Formik** library.
+This React App is designed to demonstrate the use of Formik Forms and Validation. Formik is a library that helps you create forms in React with ease. It provides a powerful set of tools for managing form state, validating user input, and submitting data to an API. This app will show you how to create a simple form with Formik and validate user input using Yup validation schema. You will also learn how to handle form submission and display errors when necessary. With this app, you can quickly build forms that are both user-friendly and secure.
 
 This was created to submit for an assignment in Module 13 of the MIT xPRO Full Stack Development course (Fall 2022).
 
