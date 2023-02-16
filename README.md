@@ -1,12 +1,60 @@
-# Getting Started with Create React App
+# React App with Formik Form and Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a small demo of a single page React app created with `create-react-app`. The app contains a form that uses the **Formik** library.
 
-In the project directory, you can run:
+This was created to submit for an assignment in Module 13 of the MIT xPRO Full Stack Development course (Fall 2022).
 
-### `npm start`
+## Details
+
+Details of the assignment are listed below.
+
+> **In this activity, your task is to create a login form with validation using Formik.**
+>
+> Your form should include the following:
+>
+> - An Email field
+> - A Password field
+> - A Submit Button
+>
+> Your form should implement the following input validation rules:
+>
+> - If the username or password inputs are empty, display the message "Field required" under the text input.
+> - If the username is not in an email format, display the message "Username should be an email" under the text input.
+> - If the username and password pass the validation above, then display the message "Login Successful" in an `alert` box.
+>
+> Your form should implement the following specific details:
+>
+> - The email input field should have an id of `emailField`
+> - The email error message should be within a `div` element that has an id of `emailError`
+> - The password input field should have an id of `pswField`
+> - The password error message should be within a `div` element that has an id of `pswError`
+> - The submit button should have an id of `submitBtn`
+>
+> The starter code can be found inside `src/App.js`.
+
+## How to Run
+
+[Click this link](https://github.com/Danny-Nunez/React-Formik-Login-Form) to view the app live on GitHub.
+
+This React app has been deployed to GitHub Pages using `gh-pages` by following the information provided [here](https://github.com/gitname/react-gh-pages).
+
+It is viewable on the web without having to download and run it locally. However, the source code is also provided if you choose to do so. More information is below.
+
+## React Toolchains
+
+This project was bootstrapped with [**Create React App**](https://reactjs.org/docs/create-a-new-react-app.html).
+You can learn more in the **Create React App documentation** [here](https://facebook.github.io/create-react-app/docs/getting-started) or [here](https://github.com/facebook/create-react-app).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Available Scripts
+
+<details>
+<summary>In the project directory, you can run:</summary>
+
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +62,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +77,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
