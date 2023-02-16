@@ -1,4 +1,6 @@
 # React App with Formik Form and Validation
+<img width="751" alt="Screen Shot 2023-02-16 at 6 50 06 PM" src="https://user-images.githubusercontent.com/114783191/219513849-0870197a-8526-43dd-bc3f-5bb7b1b8ea0a.png">
+Demo Live Link 👉 https://mit-module13-formik-login.netlify.app/
 
 ## Overview
 
@@ -36,7 +38,7 @@ Details of the assignment are listed below.
 
 ## How to Run
 
-[Click this link](https://github.com/Danny-Nunez/React-Formik-Login-Form) to view the app live on GitHub.
+[Click this link](https://mit-module13-formik-login.netlify.app/) to view the app live on Netlify.
 
 This React app has been deployed to GitHub Pages using `gh-pages` by following the information provided [here](https://github.com/gitname/react-gh-pages).
 
