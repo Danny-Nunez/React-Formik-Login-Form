@@ -40,9 +40,9 @@ Details of the assignment are listed below.
 
 [Click this link](https://mit-module13-formik-login.netlify.app/) to view the app live on Netlify.
 
-This React app has been deployed to GitHub Pages using `gh-pages` by following the information provided [here](https://github.com/gitname/react-gh-pages).
+This React app has been deployed to Netlify becasue of its speed and power.
 
-It is viewable on the web without having to download and run it locally. However, the source code is also provided if you choose to do so. More information is below.
+The source code is available for download, allowing you to run the program locally. Alternatively, the program can be viewed on the web without having to download it.
 
 ## React Toolchains
 
