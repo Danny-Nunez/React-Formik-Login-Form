@@ -11,13 +11,15 @@
 .lottiecontainer {
   background-color: rgba(255, 255, 255, 0);
 }
-.title {
-  display: inline-block;
-  justify-content: center;
+.title h2{
+  display: flex;
+  
+  margin: auto;
+  text-align: center;
 }
 .inputwrapper {
   display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 
 #pswError {
@@ -65,7 +67,6 @@ input[type=text], select {
 }
 
 div {
-  border-radius: 5px;
   background-color: none;
   padding: 20px;
   display: flex;

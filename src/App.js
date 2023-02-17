@@ -15,22 +15,23 @@ function App() {
     },
     validate: (values) => {
       let errors = {};
-      
-      if (!values.email) errors.email = "Email Field required";
-
-      if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {  // added this line to check for email format 
+      if (!values.email) {
+        errors.email = "Email Field required";
+      } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {  // added this line to check for email format 
         errors.email = 'Username should be an email';  // added this line to display the message if not in email format 
       }
-
-      if (!values.password) errors.password = "Password Field Required";
+      if (!values.password) {
+        errors.password = "Password Field Required";
       return errors;
-    },
+    }
+    return errors;
+   },
   });
 
   return (
     <div>
       <form onSubmit={formik.handleSubmit}>
-      <div className="titele"> 
+      <div className="title"> 
       <h2>MIT Module 13 React Formik  Login Form</h2>
      </div>
         <div className="inputwrapper">Email:
